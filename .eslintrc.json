@@ -1,0 +1,67 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "arrow-parens": [
+      2,
+      "as-needed"
+    ],
+    "function-paren-newline": 0,
+    "implicit-arrow-linebreak": 0,
+    "import/first": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/order": 0,
+    "jsx-quotes": [
+      2,
+      "prefer-single"
+    ],
+    "no-case-declarations": 0,
+    "no-console": 0,
+    "no-nested-ternary": 0,
+    "no-return-assign": 0,
+    "no-return-await": 0,
+    "no-shadow": 1,
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-useless-constructor": 0,
+    "padded-blocks": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-no-bind": [
+      2,
+      {
+        "ignoreDOMComponents": false,
+        "ignoreRefs": true,
+        "allowArrowFunctions": false,
+        "allowFunctions": false,
+        "allowBind": false
+      }
+    ],
+    "react/prefer-stateless-function": 1,
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        "exceptions": [
+          "App",
+          "Route"
+        ]
+      }
+    ],
+    "react/jsx-tag-spacing": 0,
+    "react/jsx-max-props-per-line": 1
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
